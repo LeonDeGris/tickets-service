@@ -1,0 +1,6 @@
+com\example\app\entities\Ticket.class
+com\example\app\entities\Tickets.class
+com\example\app\services\FlightTimePercentile.class
+com\example\app\services\TicketsReader.class
+com\example\app\services\AverageFlightTimeCalculator.class
+com\example\app\Main.class
