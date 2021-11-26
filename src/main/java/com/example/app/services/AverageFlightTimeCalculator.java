@@ -31,22 +31,7 @@ public class AverageFlightTimeCalculator {
         long result = differencesSum / tickets.getTickets().size();
         System.out.println("The average flight time between Vladivostok and Tel-Aviv is:");
         System.out.printf("Hours:%d Minutes:%d", result / 60 / 60, (result / 60) % 60);
-//        long differencesSum = (long) tickets.getTickets().stream()
-//                .mapToLong(ticket -> {
-//                    long arrivalSeconds = extractEpochSeconds(ticket::getArrivalDate, ticket::getArrivalTime);
-//                    long departureSeconds = extractEpochSeconds(ticket::getDepartureDate, ticket::getDepartureTime);
-//                    return arrivalSeconds - departureSeconds;
-//                })
-//                .average()
-//                .orElseThrow(RuntimeException::new);
-//        System.out.printf("Hours: %d \nMinutes: %d", differencesSum / 60 / 60, (differencesSum / 60) % 60);
     }
-
-//    private long extractEpochSeconds(Supplier<String> dateExtractor, Supplier<String> timeExtractor) {
-//        return LocalDateTime
-//                .parse(dateExtractor.get() + " " + timeExtractor.get(), formatter)
-//                .toEpochSecond(ZoneOffset.UTC);
-//    }
 }
 
 
