@@ -13,4 +13,4 @@
 
 #Запуск .jar
 ---
-java -jar C:\Users\Leon\Documents\java-projects\tickets-service\target\tickets-service-1.0-SNAPSHOT.jar
+java -jar (Путь к проекту)\tickets-service\target\tickets-service-1.0-SNAPSHOT.jar
